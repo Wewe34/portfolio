@@ -14,7 +14,7 @@ class About extends Component {
                         in a small town in Kentucky. If I was an animal, I would be a parrot for it's
                         bright, vibrant colors and problem-solving abilities. I've always had a love
                         for logical-thinking
-                        and problem-solving that eventually led to the discovery of coding. I
+                        and problem-solving that eventually led to the discovery of coding. Furthermore, I
                         recently completed a rigorous software development school in Chicago, IL.
                         <br />
                         <br />

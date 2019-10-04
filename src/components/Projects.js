@@ -29,7 +29,7 @@ class Projects extends Component {
                 <div className="projects">
                     <img className="project-img" src="/images/home.png" alt="site-pic"/>
                     <div className="project-info">
-                        <p className="project-name">Portfolio</p>
+                        <a href="http://www.cassandraterry.com.s3-website.us-east-2.amazonaws.com"><p className="project-name">Portfolio</p></a>
                         <p>React web application </p>
                         <p>Sole Developer.</p>
                         <p>Tech Stack:  React, HTML, CSS </p>
