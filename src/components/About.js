@@ -18,11 +18,10 @@ class About extends Component {
                         recently completed a rigorous software development school in Chicago, IL.
                         <br />
                         <br />
-                        SKILLS: Javascript, React, Redux, HTML, CSS, Express, PostgreSQL
-                        <br />
-                        <br />
+
                         <a href="https://www.linkedin.com/in/cassandraterry/"><img className="socialmedia" src="/images/linkedin.png" alt="linkedin"/></a>
                         <a href="https://github.com/Wewe34/"><img className="socialmedia" src="/images/github.png" alt="github"/></a>
+                        <a href="mailto:cassandra34terry@gmail.com?Subject=Hi%20Cassandra." target="_top"><img className="socialmedia" src="/images/email.png" alt="email"/></a>
                     </p>
 
 

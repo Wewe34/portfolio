@@ -1,17 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
-
 html,body {
   width: 100%;
   height: 100%;
@@ -26,19 +12,13 @@ html,body {
   background-image: url(/images/whitebg.png);
   background-position: 100% 100%;
   background-size: cover;
-  /* background-color: #2f3474; */
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Marmelad', sans-serif; */
   font-family: 'Abel', sans-serif;
 }
 
 #title {
-  /* margin-top: 287px;
-  margin-left: 470px; */
   margin-top: 120px;
   margin-left: 80px;
 }
@@ -66,19 +46,14 @@ h1 {
 }
 
 button {
-  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Marmelad', sans-serif; */
   font-family: 'Abel', sans-serif;
   font-size: 20px;
   text-decoration: none;
   outline: none;
-  /* color: #05337d; */
   color: white;
   height: 70px;
   width: 150px;
   background-color: white;
-  /* border-radius: 50%; */
   border: 3px solid white;
   margin: 0px;
   text-transform: uppercase;
@@ -191,6 +166,19 @@ z-index: 3;
   transform: rotate(-45deg);
 }
 
+.socialmedia {
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+}
+
+.emailblue {
+  height: 80px;
+  width: 120px;
+  padding: 0px;
+  margin: 0;
+}
+
 #flyingparrot-projects{
   height: 170px;
   width: 170px;
@@ -199,7 +187,6 @@ z-index: 3;
   top: 30px;
   transform: rotate(80deg);
 }
-
 
 
 .projects{
@@ -226,10 +213,11 @@ z-index: 3;
   text-align: center;
   background-color: white;
   color: rgb(0, 113, 255);
-  /* border: 3px solid rgb(0, 113, 255); */
   margin-right: 20px;
   text-decoration: none;
   width: 50px;
+  background-image: url(/images/infobg.png);
+  background-size: 100% 100%;
 }
 
 .project-name {
@@ -239,7 +227,6 @@ z-index: 3;
   color: rgb(0, 113, 255);
   background-color: white;
   font-weight: bolder;
-  /* border: 2px solid rgb(0, 113, 255); */
 }
 
 .project-name:hover {
@@ -253,68 +240,67 @@ a {
   text-decoration: none;
 }
 
-#flyingparrot-contact{
-  height: 170px;
-  width: 170px;
-  z-index: -2;
-  position: absolute;
-  left: 60px;
-  top: 345px;
-  transform: rotate(-1deg);
+
+#skills-container {
+  background-image: url(/images/bgparrot.png);
+  background-size: cover;
+
+}
+#skills {
+  margin-top: 0px;
+  padding: 0;
 }
 
-#flyingparrot-contact1{
-  height: 170px;
-  width: 170px;
-  position: absolute;
-  left: 780px;
-  top: 45px;
-  transform: rotate(-100deg);
+.skills-row {
+  display: flex;
+justify-content: space-around;
+
 }
 
-#gform {
-  margin-top: 33px;
-  margin-left: 23%;
-  background-color: white;
-  width: 50%;
-  color: rgb(11, 158, 11);
-  text-align: center;
-}
-
-.contact-input{
-  width: 80%;
-  border: 1px solid rgb(11, 158, 11);
-}
-
-#submit-button {
-  color: rgb(11, 158, 11);
-  cursor: pointer;
+.skills-img {
+  position: relative;
+  display: inline-block;
   border-left: 3px solid rgb(11, 158, 11);
   border-bottom: 3px solid rgb(11, 158, 11);
-  transform: scale(.7);
-}
-#submit-button:hover {
-  border-right: 3px solid white;
-  border-top: 3px solid white;
-  color: white;
-  background-color: rgb(11, 158, 11);
- cursor: pointer;
-  transform: scale(.8);
+  height: 90px;
+  width: 90px;
+  padding: 10px;
 }
 
-.socialmedia {
-  height: 30px;
-  width: 30px;
-  padding: 3px;
-}
-
-
-.thankyou_message{
-  color: white;
-  color:rgb(2, 186, 255);
+.skills-wrap {
+  position: relative;
+  height: 128px;
+  width: 157px;
   text-align: center;
+  font-size: 30px;
 }
 
+.skills-info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.72);
+  color: rgb(11, 158, 11);
+  visibility: hidden;
+  opacity: 0;
+  padding: 10px;
+  font-weight: bold;
+  transition: opacity .2s, visibility .2s;
+}
+
+.skills-wrap:hover .skills-info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mobile-resp {
+  font-size: 20px;
+  margin: 0;
+  color: rgb(11, 158, 11);
+  /* visibility: hidden; */
+}
 
 
 @media screen and (max-width: 600px) {
@@ -330,8 +316,6 @@ a {
   }
 
   #title {
-    /* margin-top: 100px;
-    margin-left: 40px; */
     margin: auto;
   }
 
@@ -385,21 +369,17 @@ a {
     width: 315px;
     padding: 0px;
     margin: auto;
+    background-image: none;
   }
 
-  #flyingparrot-contact{
-    display: none;
+  #skills-container {
+    background-image: none;
   }
 
-  #flyingparrot-contact1 {
-    display: none;
+  .mobile-resp {
+    visibility: visible;
   }
 
-  #gform {
-    width: 100%;
-    margin: 0;
-    margin-top: 10px;
-  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
@@ -447,28 +427,24 @@ a {
     width: 315px;
     padding: 0px;
     margin: auto;
+    background-image: none;
   }
 
-  #gform {
-    font-size: 50px;
-    margin-left: 30vw;
-  }
-
-  .contact-input {
-    width: 100%;
-  }
-
-  #flyingparrot-contact1 {
-    display: none;
-  }
-
-  #flyingparrot-contact {
-    display: none;
-  }
 
   .socialmedia {
     height: 55px;
     width: 55px;
   }
 
+  #skills-container {
+    background-image: none;
+  }
+
+  .mobile-resp {
+    visibility: visible;
+  }
+
 }
+
+
+

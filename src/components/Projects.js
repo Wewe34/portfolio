@@ -13,7 +13,7 @@ class Projects extends Component {
                         <a href="https://mayan-god-attack.herokuapp.com"><p className="project-name">Mayan God Attack</p></a>
                         <p>Single player dodge and shoot game.</p>
                         <p>Sole Developer.</p>
-                        <p>Tech Stack: Phaser.js and Express</p>
+                        <p>Technologies: Phaser.js and Express</p>
                     </div>
                 </div>
                 <div className="projects">
@@ -23,16 +23,16 @@ class Projects extends Component {
                         <p>Multi-user, pixel art editor used to create pixel art and
                             animiations. Try your hand at it and save as a gif.</p>
                         <p>Fullstack Developer.</p>
-                        <p>Tech Stack:  HTML Canvas, React Hooks and Websockets</p>
+                        <p>Technologies:  HTML Canvas, React Hooks and Websockets</p>
                     </div>
                 </div>
                 <div className="projects">
-                    <img className="project-img" src="/images/home.png" alt="site-pic"/>
+                    <img className="project-img" src="/images/site.png" alt="site-pic"/>
                     <div className="project-info">
                         <a href="http://www.cassandraterry.com.s3-website.us-east-2.amazonaws.com"><p className="project-name">Portfolio</p></a>
                         <p>React web application </p>
                         <p>Sole Developer.</p>
-                        <p>Tech Stack:  React, HTML, CSS </p>
+                        <p>Technologies:  React, HTML, CSS </p>
                     </div>
                 </div>
                 <div className="projects">
@@ -43,7 +43,7 @@ class Projects extends Component {
                         <p>E-commerce website with Passport and OAuth integration.<br />
                              Styling not so great, but it works. :)</p>
                         <p>Fullstack Developer.</p>
-                        <p>Tech Stack:  React, Redux, Express, PostgreSQL.</p>
+                        <p>Technologies:  React, Redux, Express, PostgreSQL.</p>
                     </div>
                 </div>
             </div>

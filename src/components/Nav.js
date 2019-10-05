@@ -8,7 +8,7 @@ class Nav extends Component {
                         <Link to="/"><button id="nav-home">Home</button></Link>
                         <Link to="/about"><button id="nav-about">About</button></Link>
                         <Link to="/projects"><button id="nav-projects">Projects</button></Link>
-                        <Link to="/contact"><button id="nav-contact">Contact</button></Link>
+                        <Link to="/skills"><button id="nav-contact">Skills</button></Link>
                 </div>
 
         )
