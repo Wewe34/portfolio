@@ -28,10 +28,10 @@ class Projects extends Component {
                     </div>
                 </div>
                 <div className="projects">
-                <a href="https://cassandraterry-793fc.firebaseapp.com"><img className="project-img" src="/images/site.png" alt="site-pic"/></a>
+                <a href="https://cassandra-terry.herokuapp.com"><img className="project-img" src="/images/site.png" alt="site-pic"/></a>
 
                     <div className="project-info">
-                        <a href="https://cassandraterry-793fc.firebaseapp.com"><p className="project-name">Portfolio</p></a>
+                        <a href="https://cassandra-terry.herokuapp.com"><p className="project-name">Portfolio</p></a>
                         <p>React web application </p>
                         <p>Sole Developer.</p>
                         <p>Technologies:  React, HTML, CSS </p>
