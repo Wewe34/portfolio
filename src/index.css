@@ -242,8 +242,8 @@ a {
 }
 
 #skills-container {
-  background-image: url(/images/bgparrot.png);
-  background-position: right;
+  /* background-image: url(/images/bgparrot.png);
+  background-position: right; */
   height: 100vh;
 }
 #skills {

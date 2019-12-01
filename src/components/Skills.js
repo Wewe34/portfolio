@@ -49,6 +49,14 @@ class Skills extends Component {
                             <br />
                             <div className="skills-list">
                                 <div className="skills-wrap">
+                                    <img className="skills-img" src="/images/skills/oop.png" alt="oop"></img>
+                                    <p className="mobile-resp">OOP</p>
+                                </div>
+                                <div className="skills-wrap">
+                                    <img className="skills-img" src="/images/skills/sql.png" alt="sql"></img>
+                                    <p className="mobile-resp">SQL</p>
+                                </div>
+                                <div className="skills-wrap">
                                     <img className="skills-img" src="/images/skills/psql.png" alt="psql"></img>
                                     <p className="mobile-resp">PostgreSQL</p>
                                 </div>
@@ -59,10 +67,6 @@ class Skills extends Component {
                                 <div className="skills-wrap">
                                     <img className="skills-img" src="/images/skills/git.png" alt="git"></img>
                                     <p className="mobile-resp">git</p>
-                                </div>
-                                <div className="skills-wrap">
-                                        <img className="skills-img" src="/images/skills/java.png" alt="java"></img>
-                                        <p className="mobile-resp">Java</p>
                                 </div>
                             </div>
                         </div>
