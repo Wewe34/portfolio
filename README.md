@@ -1,4 +1,4 @@
-Link to Portfolio: https://cassandraterry-793fc.firebaseapp.com
+Link to Portfolio: https://cassandra-terry.herokuapp.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
