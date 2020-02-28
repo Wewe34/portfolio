@@ -7,10 +7,10 @@ class Projects extends Component {
             <div id="projects-container">
                 <Nav />
                 <div className="projects">
-                <a href="http://ec2-13-58-98-246.us-east-2.compute.amazonaws.com/"><img className="project-img" src="/images/dory.png" alt="dory-pic"/></a>
+                <a href="https://brave-golick-37bcd7.netlify.com/"><img className="project-img" src="/images/dory.png" alt="dory-pic"/></a>
 
                     <div className="project-info">
-                        <a href="http://ec2-13-58-98-246.us-east-2.compute.amazonaws.com/"><p className="project-name">Defending Dory</p></a>
+                        <a href="https://brave-golick-37bcd7.netlify.com/"><p className="project-name">Defending Dory</p></a>
                         <p>Single player dodge game. (Desktop Only)</p>
                         <p>Sole Developer.</p>
                         <p>Technologies: Javascript, Phaser 3 (HTML5 game framework) and Express</p>
