@@ -556,6 +556,7 @@ a {
     margin: auto;
   }
 
+
   .project-info {
     width: 100vw;
     padding: 0px;
@@ -701,16 +702,29 @@ a {
 
   .project-img {
     padding: 5px;
-    margin-left: 190px;
-    width: 50%;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .projimg {
+    text-align: center;
+    width: 100vw;
   }
 
   .project-info {
-    width: 315px;
+    width: auto;
     padding: 0px;
     margin-left: 0;
     margin-right: 0;
     background-image: none;
+  }
+
+  .project-name {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+    height: auto;
   }
 
 
