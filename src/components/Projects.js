@@ -8,7 +8,7 @@ class Projects extends Component {
                 <Nav />
                 <div className="projects">
                 <div className="projimg">
-                    <a href="https://goofy-benz-03baca.netlify.com/"><img className="project-img" src="/images/dory.png" alt="dory-pic"/></a>
+                    <a href="https://goofy-benz-03baca.netlify.com/"><img className="project-img" src="/images/dd.png" alt="dory-pic"/></a>
                 </div>
                     <div className="project-info">
                         <a href="https://goofy-benz-03baca.netlify.com/"><p className="project-name">Defending Dory</p></a>
