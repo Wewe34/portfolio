@@ -16,7 +16,6 @@ html,body {
   background-position: 100% 100%;
   background-size: cover; */
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   font-family: 'Abel', sans-serif;
 }
@@ -449,10 +448,6 @@ a {
   flex-direction: column;
   align-items: center;
   /* border: #F3C677 solid 1px; */
-}
-
-#nav-landing {
-  display: none;
 }
 
 #contactme {

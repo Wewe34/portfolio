@@ -60,7 +60,7 @@ class Skills extends Component {
                                                 <p className="mobile-resp">Node.js</p>
                                             </div>
                                         </div>
-                                        <p className="info-desc">Node to run Javascript outside the broswer and SQL to access and modify our database</p>
+                                        <p className="info-desc">SQL to access and modify our database and Node to run Javascript outside the browser</p>
                                     </div>
                                 </div>
                                 <br></br>

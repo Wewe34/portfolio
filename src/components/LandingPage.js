@@ -6,7 +6,7 @@ class LandingPage extends Component {
     render () {
         return (
             <div id="landing-container">
-                <Nav id="nav-landing"/>
+                <Nav />
                 <div id="home">
                     <div id="top-container-landing">
                         <div id="about-me-landing">
