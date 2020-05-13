@@ -31,7 +31,7 @@ class Projects extends Component {
                 </div>
                 <div className="projects">
                 <div className="projimg">
-                    <a href="https://cassandra-terry.herokuapp.com"><img className="project-img" src="/images/pp.png" alt="site-pic"/></a>
+                    <a href="https://cassandra-terry.herokuapp.com"><img className="project-img" src="/images/prooo.png" alt="site-pic"/></a>
                 </div>
                     <div className="project-info">
                         <a href="https://cassandra-terry.herokuapp.com"><p className="project-name">Portfolio</p></a>

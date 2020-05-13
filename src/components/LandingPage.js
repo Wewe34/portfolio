@@ -10,8 +10,8 @@ class LandingPage extends Component {
                 <div id="home">
                     <div id="top-container-landing">
                         <div id="about-me-landing">
-                            <h2>Hi. I'm Cassandra.</h2>
-                            <img id="aboutpiclanding" src="/images/aboutpic.JPEG" alt="about pic"/>
+                            <h2>Hi. I'm Cassandra!</h2>
+                            <img id="aboutpiclanding" src="/images/apy2.jpg" alt="about pic"/>
                             <p>I'm a passionate Software Developer
                             with a love for solving problems and expressing my creativity.
                             Check out my projects and feel free to contact me. </p>

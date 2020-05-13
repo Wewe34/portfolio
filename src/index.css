@@ -71,12 +71,12 @@ button {
   /* border-left: 3px solid whitesmoke;
   border-bottom: 3px solid whitesmoke;
   border: 3px solid whitesmoke; */
-  background-color: #F9564F;
+  background-color: rgb(167, 27, 165);
 }
 #nav-home:hover {
-  border-right: 3px solid #F9564F;
-  border-top: 3px solid #F9564F;
-  color: #F9564F;;
+  border-right: 3px solid rgb(167, 27, 165);
+  border-top: 3px solid rgb(167, 27, 165);
+  color: rgb(167, 27, 165);
   background-color: whitesmoke;
  transform: rotate(-7deg);
  cursor: pointer;
@@ -102,12 +102,12 @@ button {
   /* border-left: 3px solid #7B1E7A;
   border-bottom: 3px solid #7B1E7A;
   border: 3px solid #7B1E7A; */
-  background-color: #7B1E7A;
+  background-color: #F9564F;
 }
 #nav-projects:hover {
-  border-right: 3px solid #7B1E7A;
-  border-top: 3px solid #7B1E7A;
-  color: #7B1E7A;
+  border-right: 3px solid #F9564F;
+  border-top: 3px solid #F9564F;
+  color: #F9564F;
   background-color: whitesmoke;
  transform: rotate(-7deg);
  cursor: pointer;
@@ -118,13 +118,13 @@ button {
   /* border-left: 3px solid #F3C677;
   border-bottom: 3px solid #F3C677;
   border: 3px solid #F3C677;; */
-  background-color: #F3C677;
+  background-color: rgb(66, 190, 218);
 }
 
 #nav-contact:hover {
-  border-right: 3px solid #F3C677;
-  border-top: 3px solid #F3C677;
-  color: #F3C677;
+  border-right: 3px solid rgb(66, 190, 218);
+  border-top: 3px solid rgb(66, 190, 218);
+  color: rgb(66, 190, 218);
   background-color: whitesmoke;
  transform: rotate(7deg);
  cursor: pointer;
@@ -199,8 +199,8 @@ z-index: 3;
   height: 173px;
   min-width: 150px;
   min-height: 150px;
-  border-left: 3px solid #7B1E7A;
-  border-bottom: 3px solid #7B1E7A;
+  border-left: 3px solid #F9564F;
+  border-bottom: 3px solid #F9564F;
   padding: 20px;
   margin-left: 60px;
   margin-top: 70px;
@@ -213,7 +213,7 @@ z-index: 3;
   padding: 30px;
   text-align: center;
   background-color: whitesmoke;
-  color: #7B1E7A;
+  color: #252627;
   margin-right: 20px;
   text-decoration: none;
   width: 50px;
@@ -225,7 +225,7 @@ z-index: 3;
   font-size: 23px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #7B1E7A;
+  color: #F9564F;
   background-color: whitesmoke;
   font-weight: bolder;
 }
@@ -318,7 +318,7 @@ a {
   min-height: 200px;
   margin-right: 10px;
   margin-bottom: 10px;
-  background-color:#F9564F;
+  background-color:rgb(44, 143, 35);
 }
 #about-me-landing p{
   margin-top: 30px;
@@ -339,9 +339,11 @@ a {
   min-width: 200px;
   max-height: 600px;
   min-height: 200px;
-  background-image: url(/images/aboutpic.JPEG);
+  background-image: url(/images/apy2.jpg);
   background-size: cover;
-  background-position-x: center;
+  background-position: center 18%;
+  background-repeat: no-repeat;
+  /* background-position-x: center; */
 }
 
 #projects-landing {
@@ -467,7 +469,7 @@ a {
 
   #aboutpiclanding{
     display: block;
-    width: 250px;
+    width: 165px;
     height: 200px;
     border-radius: 50%;
     margin: auto;
@@ -554,6 +556,7 @@ a {
     width: auto;
     text-align: center;
     margin: auto;
+    border: #F9564F 2px solid;
   }
 
 
@@ -566,7 +569,7 @@ a {
     margin-bottom: 40px;
     background-image: none;
     background-color: whitesmoke;
-    color: #7B1E7A;
+    color: #252627;
   }
 
   .project-name{
@@ -704,6 +707,7 @@ a {
     padding: 5px;
     margin-left: auto;
     width: auto;
+    border: #F9564F 2px solid;
   }
 
   .projimg {
