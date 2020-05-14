@@ -556,7 +556,10 @@ a {
     width: auto;
     text-align: center;
     margin: auto;
-    border: #F9564F 2px solid;
+    border-top: #F9564F 2px solid;
+    border-right: #F9564F 2px solid;
+    border-left: none;
+    border-bottom: none;
   }
 
 
@@ -707,7 +710,10 @@ a {
     padding: 5px;
     margin-left: auto;
     width: auto;
-    border: #F9564F 2px solid;
+    border-top: #F9564F 2px solid;
+    border-right: #F9564F 2px solid;
+    border-left: none;
+    border-bottom: none;
   }
 
   .projimg {
